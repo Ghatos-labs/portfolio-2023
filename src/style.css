@@ -12,12 +12,15 @@ body
   --background-color: #333333;
   --background-dots-size: 40vh;
   --accent-color: #f07700;
-  --mobile-side-margin: 25px;
+  --mobile-side-margin: 20px;
   --btn-color-fade: 0.1s;
+  --btn-img-border: 10px;
 
-  --index-mobile-btn-size: 100px;
+  --index-mobile-btn-size: min(100px, 17.5vw);
   --index-desktop-btn-size: 150px;
   --index-icon-size: 60%;
+
+  --wide-btn-mobile-icon-size: 40px;
 
   margin: 0;
   width: 100vw;
@@ -27,9 +30,8 @@ body
   justify-content: center;
   font-family: 'Kanit', sans-serif;
   background-color: var(--background-color);
-  overflow-x: hidden;
+  overflow: hidden;
 }
-
 p, a, h1, h2, h3
 {
   color: white;
@@ -37,8 +39,7 @@ p, a, h1, h2, h3
 }
 h1
 {
-  font-size: 3em;
-  font-weight: 700;
+  font-size: min(3em, 7.5vw);
 }
 h2
 {
@@ -46,12 +47,13 @@ h2
 }
 h3
 {
-  font-size: 1.5em;
-  vertical-align: middle;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: min(1.5em, 4vw);
 }
 p
 {
-  font-size: 1.25em;
+  font-size: 1.125em;
   font-weight: 400;
 }
 .main-div
@@ -67,7 +69,7 @@ p
   top: var(--mobile-side-margin);
   left: var(--mobile-side-margin);
   width: 200px;
-  border-radius: 25px;
+  border-radius: var(--btn-img-border);
   background-color: var(--accent-color);
   transition-duration: var(--btn-color-fade);
 }
@@ -80,17 +82,19 @@ p
 }
 .wide-btn
 {
+  display: flex;
+  height: 100%;
   text-align: left;
-  border-radius: 25px;
+  border-radius: var(--btn-img-border);
   background-color: var(--accent-color);
   transition-duration: var(--btn-color-fade);
 }
 .wide-btn img, .back-to-index img
 {
-  width: 50px;
-  margin-left: 20px;
+  width: var(--wide-btn-mobile-icon-size);
+  margin-left: 10px;
   margin-right: 10px;
-  vertical-align: -15px;
+  vertical-align: -10px;
 }
 .wide-btn h3, .back-to-index h3
 {
@@ -112,7 +116,11 @@ p
   filter: invert(53%) sepia(55%) saturate(3989%) hue-rotate(6deg) brightness(99%) contrast(101%);
   transition-duration: var(--btn-color-fade);
 }
-
+.project-img
+{
+  width: min(75%, 500px);
+  border-radius: var(--btn-img-border);
+}
 
 /* dotted background styling */
 .dotted-background
@@ -148,7 +156,7 @@ p
   height: var(--index-mobile-btn-size);
   text-decoration: none;
   background-color: var(--accent-color);
-  border-radius: 1000px;
+  border-radius: 100%;
   transition-duration: var(--btn-color-fade);
 }
 .index-btn:hover
@@ -171,12 +179,6 @@ p
 }
 
 
-/* about styling */
-.about-div img
-{
-  width: min(60%, 500px);
-}
-
 
 @media screen and (min-width: 1280px)
 {
@@ -194,7 +196,7 @@ p
   }
   .main-div
   {
-    width: 50vw;
+    width: 750px;
   }
   .index-btn
   {

@@ -10,12 +10,12 @@ function Projects() {
     <div className="main-div projects-div">
         <h2>Mes projets</h2>
         <div className="wide-btn-container">
-            <Link to="/projects/hexword" className="wide-btn"><h3><img src={GameIcon}></img>Hexword</h3></Link>
-            <a href="#" className="wide-btn"><h3><img src={GameIcon}></img>Scalper shooter</h3></a>
-            <a href="#" className="wide-btn"><h3><img src={VideoIcon}></img>CV vidéo</h3></a>
-            <a href="#" className="wide-btn"><h3><img src={GameIcon}></img>Falling shapes</h3></a>
-            <a href="#" className="wide-btn"><h3><img src={WebsiteIcon}></img>Tactical nounours</h3></a>
-            <a href="#" className="wide-btn"><h3><img src={GameIcon}></img>Depletime</h3></a>
+            <Link to="hexword" className="wide-btn"><h3><img src={GameIcon}></img>Hexword</h3></Link>
+            <Link to="hexword" className="wide-btn"><img src={GameIcon}></img><h3>Scalper shooter</h3></Link>
+            <Link to="hexword" className="wide-btn"><img src={VideoIcon}></img><h3>CV vidéo</h3></Link>
+            <Link to="hexword" className="wide-btn"><img src={GameIcon}></img><h3>Falling shapes</h3></Link>
+            <Link to="hexword" className="wide-btn"><img src={WebsiteIcon}></img><h3>Tactical nounours</h3></Link>
+            <Link to="hexword" className="wide-btn"><img src={GameIcon}></img><h3>Depletime</h3></Link>
         </div>
     </div>
   )
