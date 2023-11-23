@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import ReturnBtn from "./return-btn"
 import MailIcon from "./images/mail-icon.svg"
 import MaltIcon from "./images/malt-icon.svg"
 import LinkedinIcon from "./images/linkedin-icon.svg"
@@ -9,6 +10,7 @@ function Contact() {
 
   return (
     <div className="main-div contact-div">
+        <ReturnBtn link="/"/>
         <h2>Me contacter</h2>
         <p>Vous pouvez me contacter via les plateformes suivantes:</p>
         <div className="wide-btn-container">

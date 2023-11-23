@@ -69,6 +69,7 @@ p
   top: var(--mobile-side-margin);
   left: var(--mobile-side-margin);
   width: 200px;
+  text-align: left;
   border-radius: var(--btn-img-border);
   background-color: var(--accent-color);
   transition-duration: var(--btn-color-fade);

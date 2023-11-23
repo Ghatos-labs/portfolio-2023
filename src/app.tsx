@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Index from "./index"
 import About from "./about"
 import Projects from "./projects"
 import Contact from "./contact"
-import ReturnBtn from "./return-btn";
+import ProjSynopsys from "./proj-synopsis";
 import "./style.css"
 
 function App(){
@@ -11,23 +11,18 @@ function App(){
     <body>
         <div className="dotted-background"></div>
         <Router>
-            <Switch>
-                <Route exact path="/">
-                    <Index />
-                </Route>
-                <Route path="/about">
-                    <ReturnBtn />
-                    <About />
-                </Route>
-                <Route path="/projects">
-                    <ReturnBtn />
-                    <Projects />
-                </Route>
-                <Route path="/contact">
-                    <ReturnBtn />
-                    <Contact />
-                </Route>
-            </Switch>
+            <Routes>
+                <Route path="/" element={<Index />}/>
+                <Route path="about" element={<About />}/>
+                <Route path="projects" element={<Projects />}/>
+                <Route path="projects/hexword" element={<ProjSynopsys project="hexword"/>}/>
+                <Route path="projects/scalper-shooter" element={<ProjSynopsys project="scalperShooter"/>}/>
+                <Route path="projects/cv-video" element={<ProjSynopsys project="cvVideo"/>}/>
+                <Route path="projects/falling-shapes" element={<ProjSynopsys project="fallingShapes"/>}/>
+                <Route path="projects/tactical-nounours" element={<ProjSynopsys project="tacticalNounours"/>}/>
+                <Route path="projects/depletime" element={<ProjSynopsys project="depletime"/>}/>
+                <Route path="contact" element={<Contact />}/>
+            </Routes>
         </Router>
     </body>
   )

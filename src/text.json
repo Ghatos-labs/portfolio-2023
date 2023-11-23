@@ -1,0 +1,56 @@
+{
+    "index":
+    {
+        "title":"Marwan Akkari, développeur web front-end en freelance"
+    },
+    "about":
+    {
+        "title":"Mon profil",
+        "imageLink":"",
+        "description":"Lorem ipsum dolor si amet, bla bla bla truc muche"
+    },
+    "project":
+    {
+        "hexword":
+        {
+            "title":"",
+            "description":"Lorem ipsum dolor si amet",
+            "imageLink":""
+        },
+        "scalperShooter":
+        {
+            "title":"Scalper shooter",
+            "description":"Lorem ipsum dolor si amet",
+            "imageLink":""
+        },
+        "cvVideo":
+        {
+            "title":"CV vidéo",
+            "description":"Lorem ipsum dolor si amet",
+            "imageLink":""
+        },
+        "fallingShapes":
+        {
+            "title":"Falling shapes",
+            "description":"Lorem ipsum dolor si amet",
+            "imageLink":""
+        },
+        "tacticalNounours":
+        {
+            "title":"Tactical nounours",
+            "description":"Lorem ipsum dolor si amet",
+            "imageLink":""
+        },
+        "depletime":
+        {
+            "title":"Depletime",
+            "description":"Lorem ipsum dolor si amet",
+            "imageLink":""
+        }
+    },
+    "contact":
+    {
+        "title":"Me contacter",
+        "description":"Vous pouvez me contacter via les plateformes suivantes:"
+    }
+}

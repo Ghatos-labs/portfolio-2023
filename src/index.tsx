@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import "./style.css"
 import ProfileIcon from "./images/profile-icon.svg"
 import ProjectIcon from "./images/project-icon.svg"
 import ContactIcon from "./images/contact-icon.svg"
-import "./style.css"
 
 function Index() {
 
@@ -15,7 +15,7 @@ function Index() {
           <h3>Mon profil</h3>
         </div>
         <div className="index-box">
-          <Link to="/projects" className="index-btn" href="#"><img src={ProjectIcon}></img></Link>
+          <Link to="/projects" className="index-btn"><img src={ProjectIcon}></img></Link>
           <h3>Mes projets</h3>
         </div>
         <div className="index-box">
