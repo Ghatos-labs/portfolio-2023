@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Index from "./index"
 import About from "./about"
 import Projects from "./projects"
 import Contact from "./contact"
-import ProjSynopsys from "./proj-synopsis";
+import ProjSynopsys from "./proj-synopsis"
 import "./style.css"
 
 function App(){

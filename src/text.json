@@ -1,7 +1,7 @@
 {
     "index":
     {
-        "title":"Marwan Akkari, développeur web front-end en freelance"
+        "title":"Ghatos, développeur web front-end en freelance"
     },
     "about":
     {
@@ -11,46 +11,51 @@
     },
     "project":
     {
+        "title":"Mes projets",
         "hexword":
         {
-            "title":"",
+            "title":"Hexword",
             "description":"Lorem ipsum dolor si amet",
-            "imageLink":""
+            "imageLink":"https://placekitten.com/1600/900"
         },
         "scalperShooter":
         {
             "title":"Scalper shooter",
             "description":"Lorem ipsum dolor si amet",
-            "imageLink":""
+            "imageLink":"https://placekitten.com/1600/900"
         },
         "cvVideo":
         {
             "title":"CV vidéo",
             "description":"Lorem ipsum dolor si amet",
-            "imageLink":""
+            "imageLink":"https://placekitten.com/1600/900"
         },
         "fallingShapes":
         {
             "title":"Falling shapes",
             "description":"Lorem ipsum dolor si amet",
-            "imageLink":""
+            "imageLink":"https://placekitten.com/1600/900"
         },
         "tacticalNounours":
         {
             "title":"Tactical nounours",
             "description":"Lorem ipsum dolor si amet",
-            "imageLink":""
+            "imageLink":"https://placekitten.com/1600/900"
         },
         "depletime":
         {
             "title":"Depletime",
             "description":"Lorem ipsum dolor si amet",
-            "imageLink":""
+            "imageLink":"https://placekitten.com/1600/900"
         }
     },
     "contact":
     {
         "title":"Me contacter",
         "description":"Vous pouvez me contacter via les plateformes suivantes:"
+    },
+    "returnBtn":
+    {
+        "text":"retour"
     }
 }

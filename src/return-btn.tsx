@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Text from "./text.json"
 import ReturnIcon from "./images/return-icon.svg"
 import "./style.css"
 
@@ -9,7 +10,7 @@ interface Props {
 function ReturnBtn(props: Props) {
 
   return (
-    <Link to={props.link} className="back-to-index"><h3><img src={ReturnIcon}></img>Retour</h3></Link>
+    <Link to={props.link} className="back-to-index"><h3><img src={ReturnIcon}></img>{Text.returnBtn.text}</h3></Link>
   )
 }
 
