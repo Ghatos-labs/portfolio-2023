@@ -15,37 +15,37 @@
         "hexword":
         {
             "title":"Hexword",
-            "description":"Lorem ipsum dolor si amet",
+            "description":"Silly ball game",
             "imageLink":"https://placekitten.com/1600/900"
         },
         "scalperShooter":
         {
             "title":"Scalper shooter",
-            "description":"Lorem ipsum dolor si amet",
+            "description":"Pew pew against evil robots",
             "imageLink":"https://placekitten.com/1600/900"
         },
         "cvVideo":
         {
             "title":"CV vidéo",
-            "description":"Lorem ipsum dolor si amet",
+            "description":"Hello, it's me",
             "imageLink":"https://placekitten.com/1600/900"
         },
         "fallingShapes":
         {
             "title":"Falling shapes",
-            "description":"Lorem ipsum dolor si amet",
+            "description":"Fall cubes onto the ball",
             "imageLink":"https://placekitten.com/1600/900"
         },
         "tacticalNounours":
         {
             "title":"Tactical nounours",
-            "description":"Lorem ipsum dolor si amet",
+            "description":"The best website for my brother",
             "imageLink":"https://placekitten.com/1600/900"
         },
         "depletime":
         {
             "title":"Depletime",
-            "description":"Lorem ipsum dolor si amet",
+            "description":"Easily the best game of the year, with how low the bar was set with other releases",
             "imageLink":"https://placekitten.com/1600/900"
         }
     },
