@@ -7,8 +7,10 @@ function About() {
   return (
     <div className="main-div about-div">
         <ReturnBtn link="/"/>
-        <h2>{Text.about.title}</h2>
-        <img src="https://placekitten.com/300/200" className="project-img"></img>
+        <div className="proj-title-container">
+          <img src={Text.about.imageLink} className="project-img"></img>
+          <h2>{Text.about.title}</h2>       
+        </div>
         <p>{Text.about.description}</p>
     </div>
   )

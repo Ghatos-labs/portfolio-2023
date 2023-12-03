@@ -6,7 +6,7 @@
     "about":
     {
         "title":"Mon profil",
-        "imageLink":"",
+        "imageLink":"https://placekitten.com/900/600",
         "description":"Lorem ipsum dolor si amet, bla bla bla truc muche"
     },
     "project":
@@ -15,38 +15,44 @@
         "hexword":
         {
             "title":"Hexword",
-            "description":"Silly ball game",
-            "imageLink":"https://placekitten.com/1600/900"
+            "description":"Un projet réalisé en 2021 pour un devoir en DUT MMI où la règle était de faire un jeu sur navigateur où la règle était de choisir une couleur hexadécimale formant un mot, puis de faire un jeu autour de la couleur et du mot en question.",
+            "imageLink":"https://placekitten.com/900/600",
+            "projLink":"https://mail.google.com/"
         },
         "scalperShooter":
         {
             "title":"Scalper shooter",
-            "description":"Pew pew against evil robots",
-            "imageLink":"https://placekitten.com/1600/900"
+            "description":"Un projet réalisé en 2022 avec la librairie D3.js pour un devoir en DUT MMI, Scalper shooter est un jeu de tir en 2D dans lequel le but est de défendre les consoles de jeu contre les robot scalpeurs, 3 consoles volées et c'est perdu.",
+            "imageLink":"https://placekitten.com/900/600",
+            "projLink":""
         },
         "cvVideo":
         {
             "title":"CV vidéo",
-            "description":"Hello, it's me",
-            "imageLink":"https://placekitten.com/1600/900"
+            "description":"",
+            "imageLink":"https://placekitten.com/900/600",
+            "projLink":""
         },
         "fallingShapes":
         {
             "title":"Falling shapes",
-            "description":"Fall cubes onto the ball",
-            "imageLink":"https://placekitten.com/1600/900"
+            "description":"Un jeu de plateforme et de puzzle réalisé lors de mon stage d'étude de 2021 où il faut jouer avec la physique pour amener la balle à la ligne d'arrivée.",
+            "imageLink":"https://placekitten.com/900/600",
+            "projLink":""
         },
         "tacticalNounours":
         {
             "title":"Tactical nounours",
-            "description":"The best website for my brother",
-            "imageLink":"https://placekitten.com/1600/900"
+            "description":"Ma première mission de freelance, un site web fait avec React ts pour Tactical Nounours, un développeur indépendant de jeux-vidéo.",
+            "imageLink":"https://placekitten.com/900/600",
+            "projLink":""
         },
         "depletime":
         {
             "title":"Depletime",
-            "description":"Easily the best game of the year, with how low the bar was set with other releases",
-            "imageLink":"https://placekitten.com/1600/900"
+            "description":"En février 2023, je me suis inscrit à la Gamejam Advance organisé par 803Z. Les participants avaient 2 jours pour créer un jeu respectant le thème en un mot: Pause. J'ai donc crée un jeu de plateforme en 2D où le joueur peut momentanément mettre le temps en pause afin de geler l'environnement sur place et de lui permettre de passer les niveaux.",
+            "imageLink":"https://placekitten.com/900/600",
+            "projLink":""
         }
     },
     "contact":
