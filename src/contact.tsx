@@ -15,10 +15,10 @@ function Contact() {
         <h2>{Text.contact.title}</h2>
         <p>{Text.contact.description}</p>
         <div className="wide-btn-container">
-            <a href="mailto:marwan.akkari2021@gmail.com" target="_blank" className="wide-btn"><h3><img src={MailIcon}></img>E-mail</h3></a>
-            <a href="https://www.malt.fr/profile/marwanakkari" target="_blank" className="wide-btn"><h3><img src={MaltIcon}></img>Malt</h3></a>
-            <a href="https://www.linkedin.com/in/marwan-akkari/" target="_blank" className="wide-btn"><h3><img src={LinkedinIcon}></img>Linkedin</h3></a>
-            <a href="https://www.youtube.com/channel/UCpxCUJ4-KyRkuPDWfikZkrg" target="_blank" className="wide-btn"><h3><img src={YoutubeIcon}></img>Youtube</h3></a>
+            <a href="mailto:marwan.akkari2021@gmail.com" target="_blank" className="wide-btn"><img src={MailIcon}></img><h3>E-mail</h3></a>
+            <a href="https://www.malt.fr/profile/marwanakkari" target="_blank" className="wide-btn"><img src={MaltIcon}></img><h3>Malt</h3></a>
+            <a href="https://www.linkedin.com/in/marwan-akkari/" target="_blank" className="wide-btn"><img src={LinkedinIcon}></img><h3>Linkedin</h3></a>
+            <a href="https://www.youtube.com/channel/UCpxCUJ4-KyRkuPDWfikZkrg" target="_blank" className="wide-btn"><img src={YoutubeIcon}></img><h3>Youtube</h3></a>
         </div>
     </div>
   )

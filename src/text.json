@@ -6,8 +6,8 @@
     "about":
     {
         "title":"Mon profil",
-        "imageLink":"https://placekitten.com/900/600",
-        "description":"Lorem ipsum dolor si amet, bla bla bla truc muche"
+        "imageLink":"/src/images/about-img.jpg",
+        "description":"Salutations! Je suis passioné par la programmation et le design, et après avoir obtenu mon diplôme de D.U.T Métiers du Multimédia et de l'Internet, je me suis lancé dans la freelance!"
     },
     "project":
     {
@@ -15,44 +15,44 @@
         "hexword":
         {
             "title":"Hexword",
-            "description":"Un projet réalisé en 2021 pour un devoir en DUT MMI où la règle était de faire un jeu sur navigateur où la règle était de choisir une couleur hexadécimale formant un mot, puis de faire un jeu autour de la couleur et du mot en question.",
-            "imageLink":"https://placekitten.com/900/600",
-            "projLink":"https://mail.google.com/"
+            "description":"Un jeu fait en HTML pur et réalisé en 2021 pour un devoir. L'énoncé était de choisir une couleur hexadécimale formant un mot, puis de faire un jeu autour du mot et de la couleur en question. Ma couleur était #D077ED (''Dotted'', pointillé en anglais) et j'ai crée un jeu incrémental où le but est d'atteindre 10 000 points le plus rapidement possible.",
+            "imageLink":"",
+            "projLink":""
         },
         "scalperShooter":
         {
             "title":"Scalper shooter",
-            "description":"Un projet réalisé en 2022 avec la librairie D3.js pour un devoir en DUT MMI, Scalper shooter est un jeu de tir en 2D dans lequel le but est de défendre les consoles de jeu contre les robot scalpeurs, 3 consoles volées et c'est perdu.",
-            "imageLink":"https://placekitten.com/900/600",
+            "description":"Un jeu fait à l'aide de la librairie JavaScript D3.js et réalisé en 2022 pour un devoir. L'énoncé était de faire un jeu où le joueur défend un endroit en tirant sur une vague d'ennemies arrivant vers lui. Dans Scalper shooter, le joueur doit détruire le plus de robots avant qu'ils ne volent 3 consoles, signant la fin de la partie.",
+            "imageLink":"",
             "projLink":""
         },
         "cvVideo":
         {
             "title":"CV vidéo",
-            "description":"",
-            "imageLink":"https://placekitten.com/900/600",
-            "projLink":""
+            "description":"Un CV vidéo en anglais réalisé en 2022 pour un devoir, dans lequel je parle de mon parcours professionel, de mes compétences, de mon stage chez CVR, et de mes moyens de contact.",
+            "imageLink":"/src/images/cv-video-img.jpg",
+            "projLink":"https://www.youtube.com/watch?v=f8m95hvMtoc"
         },
         "fallingShapes":
         {
             "title":"Falling shapes",
-            "description":"Un jeu de plateforme et de puzzle réalisé lors de mon stage d'étude de 2021 où il faut jouer avec la physique pour amener la balle à la ligne d'arrivée.",
-            "imageLink":"https://placekitten.com/900/600",
-            "projLink":""
+            "description":"Un jeu de plateforme et de puzzle réalisé lors de mon stage d'étude en 2021, le but est de jouer avec la physique pour amener la balle à la ligne d'arrivée.",
+            "imageLink":"/src/images/falling-shapes-img.svg",
+            "projLink":"https://play.google.com/store/apps/details?id=com.DefaultCompany.Fallingshapes"
         },
         "tacticalNounours":
         {
             "title":"Tactical nounours",
-            "description":"Ma première mission de freelance, un site web fait avec React ts pour Tactical Nounours, un développeur indépendant de jeux-vidéo.",
-            "imageLink":"https://placekitten.com/900/600",
-            "projLink":""
+            "description":"Ma première mission de freelance, un site web fait avec React pour Tactical Nounours, un développeur indépendant de jeux-vidéo en réalité virtuelle.",
+            "imageLink":"/src/images/tactical-nounours-img.svg",
+            "projLink":"https://www.tacticalnounours.com/"
         },
         "depletime":
         {
             "title":"Depletime",
-            "description":"En février 2023, je me suis inscrit à la Gamejam Advance organisé par 803Z. Les participants avaient 2 jours pour créer un jeu respectant le thème en un mot: Pause. J'ai donc crée un jeu de plateforme en 2D où le joueur peut momentanément mettre le temps en pause afin de geler l'environnement sur place et de lui permettre de passer les niveaux.",
-            "imageLink":"https://placekitten.com/900/600",
-            "projLink":""
+            "description":"Un jeu de plateforme en 2D réalisé en 2023 pour la Gamejam Advance. Les participants avaient 2 jours pour créer un jeu respectant le thème ''Pause''. J'ai donc crée Depletime où le joueur peut momentanément mettre le temps en pause afin de geler l'environnement sur place et de lui permettre de passer les niveaux.",
+            "imageLink":"/src/images/depletime-img.svg",
+            "projLink":"https://ghatos.itch.io/depletime"
         }
     },
     "contact":
@@ -62,6 +62,6 @@
     },
     "returnBtn":
     {
-        "text":"retour"
+        "text":"Retour"
     }
 }

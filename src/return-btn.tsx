@@ -10,7 +10,7 @@ interface Props {
 function ReturnBtn(props: Props) {
 
   return (
-    <Link to={props.link} className="back-to-index"><h3><img src={ReturnIcon}></img>{Text.returnBtn.text}</h3></Link>
+    <Link to={props.link} className="return-btn"><img src={ReturnIcon}></img><h3>{Text.returnBtn.text}</h3></Link>
   )
 }
 

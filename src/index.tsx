@@ -12,15 +12,15 @@ function Index() {
       <h1>{Text.index.title}</h1>
       <div className="index-box-container">
         <div className="index-box">
-          <Link to="/about" className="index-btn"><img src={ProfileIcon}></img></Link>
+          <Link to="about" className="index-btn"><img src={ProfileIcon}></img></Link>
           <h3>{Text.about.title}</h3>
         </div>
         <div className="index-box">
-          <Link to="/projects" className="index-btn"><img src={ProjectIcon}></img></Link>
+          <Link to="projects" className="index-btn"><img src={ProjectIcon}></img></Link>
           <h3>{Text.project.title}</h3>
         </div>
         <div className="index-box">
-          <Link to="/contact" className="index-btn"><img src={ContactIcon}></img></Link>
+          <Link to="contact" className="index-btn"><img src={ContactIcon}></img></Link>
           <h3>{Text.contact.title}</h3>
         </div>
       </div>

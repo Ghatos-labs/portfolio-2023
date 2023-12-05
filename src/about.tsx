@@ -9,7 +9,7 @@ function About() {
         <ReturnBtn link="/"/>
         <div className="proj-title-container">
           <img src={Text.about.imageLink} className="project-img"></img>
-          <h2>{Text.about.title}</h2>       
+          <h2 style={{margin: "0"}}>{Text.about.title}</h2>       
         </div>
         <p>{Text.about.description}</p>
     </div>
