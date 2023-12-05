@@ -1,12 +1,12 @@
 {
     "index":
     {
-        "title":"Ghatos, développeur web front-end en freelance"
+        "title":"Marwan Akkari, développeur web front-end en freelance"
     },
     "about":
     {
         "title":"Mon profil",
-        "imageLink":"/src/images/about-img.jpg",
+        "imageLink":"/about-img.jpg",
         "description":"Salutations! Je suis passioné par la programmation et le design, et après avoir obtenu mon diplôme de D.U.T Métiers du Multimédia et de l'Internet, je me suis lancé dans la freelance!"
     },
     "project":
@@ -30,28 +30,28 @@
         {
             "title":"CV vidéo",
             "description":"Un CV vidéo en anglais réalisé en 2022 pour un devoir, dans lequel je parle de mon parcours professionel, de mes compétences, de mon stage chez CVR, et de mes moyens de contact.",
-            "imageLink":"/src/images/cv-video-img.jpg",
+            "imageLink":"/cv-video-img.jpg",
             "projLink":"https://www.youtube.com/watch?v=f8m95hvMtoc"
         },
         "fallingShapes":
         {
             "title":"Falling shapes",
             "description":"Un jeu de plateforme et de puzzle réalisé lors de mon stage d'étude en 2021, le but est de jouer avec la physique pour amener la balle à la ligne d'arrivée.",
-            "imageLink":"/src/images/falling-shapes-img.svg",
+            "imageLink":"/falling-shapes-img.svg",
             "projLink":"https://play.google.com/store/apps/details?id=com.DefaultCompany.Fallingshapes"
         },
         "tacticalNounours":
         {
             "title":"Tactical nounours",
             "description":"Ma première mission de freelance, un site web fait avec React pour Tactical Nounours, un développeur indépendant de jeux-vidéo en réalité virtuelle.",
-            "imageLink":"/src/images/tactical-nounours-img.svg",
+            "imageLink":"/tactical-nounours-img.svg",
             "projLink":"https://www.tacticalnounours.com/"
         },
         "depletime":
         {
             "title":"Depletime",
             "description":"Un jeu de plateforme en 2D réalisé en 2023 pour la Gamejam Advance. Les participants avaient 2 jours pour créer un jeu respectant le thème ''Pause''. J'ai donc crée Depletime où le joueur peut momentanément mettre le temps en pause afin de geler l'environnement sur place et de lui permettre de passer les niveaux.",
-            "imageLink":"/src/images/depletime-img.svg",
+            "imageLink":"/depletime-img.svg",
             "projLink":"https://ghatos.itch.io/depletime"
         }
     },
