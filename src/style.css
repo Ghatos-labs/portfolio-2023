@@ -63,6 +63,8 @@ p
   margin-left: var(--mobile-side-margin);
   margin-right: var(--mobile-side-margin);
   text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 
@@ -155,10 +157,10 @@ p
 {
   position: fixed;
   width: 100vw;
-  height: 150px;
+  height: 110px;
   left: 0;
   top: 0;
-  background: linear-gradient(var(--background-color) 60%, #00000000);
+  background: linear-gradient(var(--background-color) 80%, #00000000);
   z-index: 2;
 }
 

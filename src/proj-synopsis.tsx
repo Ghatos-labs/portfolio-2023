@@ -18,7 +18,7 @@ function ProjSynopsys(props: Props) {
         <h2 key={props.project} style={{margin: "0"}}>{title}</h2>   
       </div>
       <p key={props.project}>{description}</p>
-      <div className="wide-btn-container" style={{gridTemplateColumns:"1fr", justifyItems:"center", marginBottom: "50px"}}>
+      <div className="wide-btn-container" style={{gridTemplateColumns:"1fr", justifyItems:"center"}}>
         <a key={props.project} href={projLink} className="wide-btn" target="blank_"><img src={WebsiteIcon}></img><h3>Lien vers le projet</h3></a>     
       </div>
     </div>
