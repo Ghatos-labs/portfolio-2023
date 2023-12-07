@@ -70,7 +70,7 @@ p
 /* dotted background styling */
 .dotted-background
 {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: var(--background-dots-size);
   bottom: 0;
@@ -122,7 +122,7 @@ p
 /* return button styling */
 .return-btn
 {
-  position: absolute;
+  position: fixed;
   display: grid;
   grid-template-columns: calc(var(--wide-btn-mobile-icon-size) + var(--wide-btn-icon-margin) * 2) 1fr;
   align-items: center;
@@ -151,7 +151,16 @@ p
   filter: var(--css-accent-color);
   transition-duration: var(--btn-color-fade);
 }
-
+.return-btn-background
+{
+  position: fixed;
+  width: 100vw;
+  height: 150px;
+  left: 0;
+  top: 0;
+  background: linear-gradient(var(--background-color) 60%, #00000000);
+  z-index: 2;
+}
 
 
 /* index styling */
