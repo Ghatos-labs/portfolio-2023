@@ -1,13 +1,14 @@
 {
     "index":
     {
-        "title":"Marwan Akkari, développeur web front-end en freelance"
+        "name":"Marwan Akkari",
+        "title":"développeur web front‑end en freelance"
     },
     "about":
     {
         "title":"Mon profil",
         "imageLink":"/about-img.jpg",
-        "description":"Salutations! Je suis passioné par la programmation et le design, et après avoir obtenu mon diplôme de D.U.T Métiers du Multimédia et de l'Internet, je me suis lancé dans la freelance!"
+        "description":"Passionné de technologie et de création artistique, il fut tout naturel pour moi de me porter vers le développement, et plus particulièrement web, qui lie la technicité des langages de programmation avec les impératifs esthétiques des demandes. Au cours des dernières années, j'ai appris les languages du web tel que JavaScript, Jquery, React, PHP, ainsi que le C++ et le C#."
     },
     "project":
     {

@@ -9,7 +9,8 @@ function Index() {
 
   return (
     <div className="main-div">
-      <h1>{Text.index.title}</h1>
+      <h1>{Text.index.name}</h1>
+      <h2>{Text.index.title}</h2>
       <div className="index-box-container">
         <div className="index-box">
           <Link to="about" className="index-btn"><img src={ProfileIcon}></img></Link>
